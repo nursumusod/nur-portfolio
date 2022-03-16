@@ -1,5 +1,5 @@
 import { ChakraProvider } from '@chakra-ui/react'
-import Layout from '../components/layouts/main.js'
+import Layout from '../Components/Layouts/main.js'
 import Fonts from '/components/Layouts/fonts.js'
 import theme from '../Lib/theme'
 import { AnimatePresence } from 'framer-motion'
