@@ -1,4 +1,4 @@
-import NextLink from'Next/link'
+import NextLink from'Next/link';
 import Image from 'next/image'
 import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
@@ -37,8 +37,7 @@ export const WorkGridItem=({ children, id, title, thumbnail }) => (
                 </LinkOverlay>
                 <Text fontSize={14}>{children}</Text>
             </LinkBox>
-        </NextLink>
-
+        </NextLink> 
     </Box>
 )
 
